@@ -16,3 +16,8 @@ app.get('/launchX', (req, res) => {
     res.send('Bienvenido a LaunchX')
 })
 
+app.get('/explorersinNode', (req, res) => {
+    const explorer = {name: "Explorer", msg: "Hello"}
+    res.send(explorer)
+})
+
